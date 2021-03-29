@@ -1,5 +1,5 @@
 import {pangrams} from "./Modules/pangram.js"
-import {biciesto} from "./Modules/biciesto.js"
+import {biciesto} from "./Modules/bisiesto.js"
 import { romanNumerals } from "./Modules/roman.js"
 import {unicos} from "./Modules/unicos.js";
 
@@ -27,10 +27,10 @@ const unicosResult= document.getElementById("resultUnicos")
 function resultBiciesto(){
     const result = biciesto(biciestoText.value)
     if(result){
-        biciestoResult.innerHTML="Es un año biciesto"
+        biciestoResult.innerHTML="Es un año bisiesto"
     }else
     {
-        biciestoResult.innerHTML="No es un año biciesto"
+        biciestoResult.innerHTML="No es un año bisiesto"
     }    
 }
 

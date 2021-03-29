@@ -5,7 +5,6 @@ export function pangrams(s) {
   
    for(let i = 0; i < alphabet.length; i++){
     if(lowercase.indexOf(alphabet[i]) === -1){
-      console.log("No es un pangrama")
       return false;
     }
    }
